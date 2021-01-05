@@ -2,8 +2,8 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.half-width img{
-    max-width: 100%;
+img{
+    width: 100%;
 }
 
 h1{
@@ -27,7 +27,8 @@ h1{
 }
 
 section{
-    height: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .hire-button{
@@ -37,12 +38,13 @@ section{
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
-    transition-duration: 1.5s;
+    transition-duration: 3s;
+    border: 1px solid tomato;
+
 }
 
 .hire-button:hover{
     background-image: none;
-    border: 1px solid tomato;
     color: tomato;
 }
 
@@ -51,3 +53,75 @@ section{
     font-weight: bold;
     font-size: 30px;
 }
+
+
+
+.section-dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* 
+.section-experiences{
+   background-image: url("images/exp-bg.png");
+   background-repeat: no-repeat;
+  
+}
+
+
+.section-experiences h1{
+margin-bottom: 2px;
+  text-align: center;
+}
+
+.section-experiences .line{
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(45deg,green,red);
+    margin-top: 2px;
+
+}
+
+.section-justify-content{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.section-experiences .box{
+    width: 40%;
+    box-shadow: 1px 1px 20px 0px #0000003b;
+    float: left;
+    margin: 3%;
+
+}
+
+.bash {
+    width: 2%;
+    background-image: linear-gradient(blue, tomato);
+    float: left;
+    height: 300px;
+}
+
+.bash1{
+    background-color: tomato;
+    width: 2%;
+    float: left;
+    height: 300px;
+}
+
+.text-area{
+    width: 94%;
+    padding: 4%;
+}
+
+.text-area h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-area h4{
+    font-size: 15px;
+    color: orange;
+} */
+
+

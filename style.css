@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
-
+}
+img{
+    max-width: 100%;
 }
 
 h1{
@@ -9,4 +11,11 @@ h1{
 
 .title-name{
     color: orange;
+}
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left:2%;
+    float: left;
 }

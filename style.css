@@ -37,4 +37,17 @@ section{
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
+    transition-duration: 1.5s;
+}
+
+.hire-button:hover{
+    background-image: none;
+    border: 1px solid tomato;
+    color: tomato;
+}
+
+.dream{
+    color: tomato;
+    font-weight: bold;
+    font-size: 30px;
 }

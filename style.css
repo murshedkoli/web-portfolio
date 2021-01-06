@@ -27,7 +27,8 @@ h1{
 }
 
 section{
-    height: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .hire-button{
@@ -50,4 +51,47 @@ section{
     color: tomato;
     font-weight: bold;
     font-size: 30px;
+}
+
+.exp-single{
+    box-shadow: 0 0 20px 4px #0000003b;
+    border-radius: 5px;
+    height: 300px;
+
+}
+
+.exp-single h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.experiences-are {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-design{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(80, 77, 233), rgb(238, 63, 48));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: orange;
 }
